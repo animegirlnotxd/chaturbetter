@@ -1,0 +1,395 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #494949; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5a5a5a;
+}
+
+* {
+    // box-sizing: border-box;
+    // padding: 0;
+    // margin: 0;
+    // color: white !important;
+    text-decoration: none !important;
+    // border: 1px solid red;
+}
+
+body {
+    background: #181818 !important;
+    margin: 15px 70px 0 70px !important;
+}
+
+div[class=content] {
+    background-color: #181818 !important;
+}
+
+#header {
+    background: #181818 !important;
+    // margin-bottom: 30px !important;
+}
+
+#user_information {
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+
+#user_information > [class=bottom] {
+    background-color: transparent !important;
+}
+
+#user_information [class=bottom] table {
+    color: white !important;
+}
+
+#header #user_information a.tokencountlink {
+    color: #FFD066 !important;
+}
+
+#header #user_information a.upgrade,
+#header #user_information a.purchase_tokens {
+    color: #0086D1 !important;
+}
+
+.nav-bar {
+    background: transparent !important;
+    border: none !important;
+}
+
+// removes that annoying navbar
+.nav-bar {
+    display: none;
+}
+
+div[ts=gp] a {
+    color: white !important;
+}
+
+
+
+a[style*='box-sizing: border-box; height: 27px; display: inline-block; padding: 4px 11px 0px; font-family: UbuntuMedium, Helvetica, Arial, sans-serif; border-width: 1px; border-style: solid; border-color: rgb(139, 179, 218) rgb(139, 179, 218) rgb(255, 255, 255); border-image: initial; border-radius: 4px 4px 0px 0px; font-size: 15px; text-decoration: none; color: rgb(220, 85, 0); background-color: rgb(255, 255, 255); max-width: 180px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'] {
+    background-color: transparent !important;
+    color: #FFD066 !important;
+// 
+    border-radius: 0 !important;
+    // background: #373737 !important;
+    border: none !important;
+    // transition: background 0.2s !important;
+}
+
+.sub-nav a,
+a[data-floatingnav][style],
+a[style~=ellipsis] {
+    border-radius: 0 !important;
+    background: #313131 !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: background 0.2s !important;
+}
+
+.sub-nav a:hover,
+a[data-floatingnav][style]:hover,
+a[style~=ellipsis]:hover
+a[title]:hover {
+    background: #4d4d4d !important;
+}
+
+.sub-nav a:hover {
+    background-color: #42424d !important;
+}
+
+div[ts=Mq] {
+    background: none !important;
+    border: none !important;
+}
+
+div[ts=Mq] a:not([style*='ellipsis']) {
+    color: white !important;
+}
+
+div[ts=Ww] {
+    border: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+[ts=iw] {
+    background-color: transparent !important;
+    border: none !important;
+
+    // this makes the chat go under the stream
+    // 
+    width: 600px !important;
+    display: inherit !important;
+    position: relative !important;
+}
+
+div[style*='background-color: rgb(204, 204, 204)'] {
+    background-color: transparent !important;
+}
+
+div[ts=Xq] {
+    background-color: #181818 !important;
+}
+
+// might be controversial, meh
+[rel=nofollow] {
+    display: none !important;
+}
+
+
+div[ts=Ww] > div:nth-of-type(2) {
+    background-color: transparent !important;
+}
+
+#tab-row {
+    background-color: #181818 !important;
+    padding: 0 !important;
+}
+
+#tab-row > div {
+    border-radius: 0 !important;
+}
+
+div[ts=Dw]:hover {
+    background-image: none !important;
+}
+
+.room_list_room {
+    background: none !important;
+    border: none !important;
+}
+
+[ts=Mw] {
+    // place chat under stream
+    // display: inherit !important;
+
+    background: none !important;
+    border: none !important;
+}
+
+[ts=Mw] > div:not([style*='z-index']) {
+    color: white !important;
+}
+
+[ts=Mw] > div[style*='z-index'] {
+    border: none !important;
+    border-radius: 0 !important;
+    background: #1f202cc9 !important;
+    color: white !important;
+}
+
+[title='SEND TIP'] {
+    background: none !important;
+    text-shadow: none !important;
+}
+
+[ts=Gs] {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+[ts=Gs] > div {
+    background-color: #181818 !important;
+}
+
+[ts=Fs], [ts=Bs], [ts=Cs], [ts=or] {
+    border-radius: 0 !important;
+}
+
+[ts=Fs] {
+    background: #0086D1 !important;
+}
+
+[ts=Fs] a {
+    text-shadow: none !important;
+}
+
+[ts=Bs] {
+    background: #CC0000 !important;
+    color: white !important;
+}
+
+[ts=Cs] {
+    background: #303030 !important;
+    color: #AAAAAA !important;
+}
+
+[ts=or] {
+    background: none !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+
+[ts=Xq] > div > div > a {
+    color: white !important;
+}
+
+[ts=Xq] > div > h1 {
+    color: white !important;
+}
+
+[ts=Xq] * {
+    color: white !important;
+}
+
+.userUpload {
+    background-color: transparent !important;
+}
+
+.userUpload > img {
+    border: none !important;
+}
+
+a[title].userUpload {
+    background-color: transparent !important;
+}
+
+// img[src='https://ssl-ccstatic.highwebmedia.com/tsdefaultassets/play3.png'] {
+//     content:url('https://www.iconninja.com/files/210/726/399/player-video-media-play-web-youtube-icon.svg');
+// }
+
+.footer-holder {
+    background: none !important;
+    color: white !important;
+}
+
+.footer-holder * {
+    color: white !important;
+}
+
+a[title~='Exhibitionist'] {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.userUpload > span[style*='rgb(0, 153, 0)'] {
+    background-color: #0086D1 !important;
+}
+
+.userUpload > span[style*='rgb(109, 133, 181)'] {
+    background-color: #9e1153 !important;
+}
+
+.logo-zone {
+    padding: 0 !important;
+}
+
+div.logo-zone strong {
+    // imo it's better without the text
+    display: none !important;
+    padding: 0 !important;
+    // otherwise uncomment these
+    // color: white !important;
+    // display: initial !important;
+}
+
+div.logo-zone image {
+    // width: 90px !important;
+    height: auto !important;
+}
+
+[ts=gp] {
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #181818 !important;
+}
+
+[ts=gp] {
+    background-color: #212121 !important;
+    border: 1px solid rgb(71, 71, 71) !important;
+}
+
+[ts=ww] table {
+    margin: 0 !important;
+}
+
+[ts=uz] > a {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+// [ts=uz] span {
+
+// }
+
+[ts=Ts] {
+    background: none !important;
+    // height: initial !important;
+}
+
+.followedDropdown {
+    color: inherit !important;
+}
+
+.tabOverlay {
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    text-shadow: 0 !important;
+    border: none !important;
+}
+
+.tabOverlay span {
+    text-shadow: 0 !important;
+    opacity: 0 !important;
+}
+
+.followedContainer {
+    background-color: #181818 !important;
+    border-radius: 0 !important;
+    border: 1px solid rgb(71, 71, 71) !important;
+    padding: 7px !important;
+}
+
+.roomElement {
+    border: none !important;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+.roomElement:hover {
+    opacity: 1 !important;
+}
+
+.roomElementAnchor {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+
+.followedContainer img {
+    border-radius: 0 !important;
+}
+
+[ts=Ww], [ts=Mw], [ts=px] {
+    width: 100% !important;
+}
+
+[ts=Mw] {
+    display: initial !important;
+}
+
+[ts=px] {
+    height: 70vh !important;
+    background-color: transparent !important;
+    // overflow: initial !important;
+}
+
+.vjs-control-bar {
+    background-color: #181818 !important;
+}
+
+[ts]:nth-child(10) {
+    background-color: red;
+}

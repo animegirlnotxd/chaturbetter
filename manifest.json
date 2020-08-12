@@ -1,0 +1,21 @@
+{
+   "name": "Bait Theme",
+   "version": "1.0.0",
+   "description": "Clean CB theme",
+   "manifest_version": 2,
+   "permissions": [
+      "tabs"
+  ],
+   "browser_action": {
+      "default_popup": "html/popup.html"
+   },
+   "content_scripts": [{
+       "matches": ["https://chaturbate.com/*"],
+       "js": ["js/content.js"],
+       "css": ["css/main.css"]
+    }],
+   "background": {
+      "scripts": ["js/background.js"],
+      "persistent": false
+   }
+}
