@@ -108,9 +108,53 @@ a[title]:hover {
     background-color: #42424d !important;
 }
 
-div[ts=Mq] {
+.bio-container {
+    background-color: #181818 !important;
+}
+
+.bio-container * {
+    color: white !important;
+}
+
+[style*='height: auto;width: 951px;position: static;overflow: visible;-webkit-tap-highlight-color: transparent;display: block;background-color: rgb(224, 224, 224);border: 1px solid rgb(172, 172, 172);border-radius: 4px;padding: 4px;margin: 8px 0px 17px 32px;box-sizing: border-box;'] {
+    background-color: transparent !important;
+}
+
+[style*="-webkit-tap-highlight-color: transparent"][style*="margin: 8px 0px 17px 32px"] {
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+[style*="width: 699px"] {
+    background-color: #181818 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+[style*='border-radius: 4px 4px 0px 0px'][style*='height: 100%'] {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+[style*='https://ssl-ccstatic.highwebmedia.com/tsdefaultassets/gender_tab_bg.gif'] {
     background: none !important;
     border: none !important;
+}
+
+[style*='https://ssl-ccstatic.highwebmedia.com/tsdefaultassets/gender_tab_bg.gif'] * {
+    color: white !important;
+}
+// videoPlayerDiv background none
+
+[ts=Gs] {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+[ts=Gs] > div {
+    background-color: #181818 !important;
 }
 
 div[ts=Mq] a:not([style*='ellipsis']) {
@@ -195,17 +239,15 @@ div[ts=Dw]:hover {
     text-shadow: none !important;
 }
 
-[ts=Gs] {
-    border: none !important;
-    border-radius: 0 !important;
-}
 
-[ts=Gs] > div {
-    background-color: #181818 !important;
-}
 
 [ts=Fs], [ts=Bs], [ts=Cs], [ts=or] {
     border-radius: 0 !important;
+}
+
+[ts=Cs] {
+    background: #303030 !important;
+    color: #AAAAAA !important;
 }
 
 [ts=Fs] {
@@ -221,10 +263,7 @@ div[ts=Dw]:hover {
     color: white !important;
 }
 
-[ts=Cs] {
-    background: #303030 !important;
-    color: #AAAAAA !important;
-}
+
 
 [ts=or] {
     background: none !important;
@@ -387,9 +426,11 @@ div.logo-zone image {
 }
 
 .vjs-control-bar {
-    background-color: #181818 !important;
+    background-color: #18181849 !important;
 }
 
 [ts]:nth-child(10) {
     background-color: red;
 }
+
+
