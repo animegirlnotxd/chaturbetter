@@ -1,29 +1,41 @@
 {
-   "name": "Chaturbetter",
-   "version": "1.0.0",
-   "description": "A clean dark theme for Chaturbute.",
-   "manifest_version": 2,
-   "permissions": [
-      "tabs"
-  ],
-   "browser_action": {
-      "default_popup": "html/popup.html"
-   },
-   "icons": {
-    "16": "img/better16.png",
-    "48": "img/better48.png",
-    "128": "img/better128.png"
-},
-   "content_scripts": [{
-       "matches": ["https://chaturbate.com/*"],
-       "js": ["js/jquery.js", "js/content/content.js"],
-       "css": ["css/main.css"]
-    }],
-   "background": {
-      "scripts": ["js/background/background.js"],
-      "persistent": false
-   },
-   "web_accessible_resources": [
-       "img/better16.png"
-   ]
+    "name": "Chaturbetter",
+    "version": "1.0.0",
+    "description": "A clean dark theme for Chaturbute.",
+    "manifest_version": 2,
+    "permissions": [
+        "webRequest",
+        "*://*/*m3u8*",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_popup": "html/popup.html"
+    },
+    "icons": {
+        "16": "img/better16.png",
+        "48": "img/better48.png",
+        "128": "img/better128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chaturbate.com/*"
+            ],
+            "js": [
+                "js/jquery.js",
+                "js/content/content.js"
+            ],
+            "css": [
+                "css/main.css"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "js/background/background.js"
+        ]
+    },
+    "web_accessible_resources": [
+        "img/better16.png"
+    ]
 }
