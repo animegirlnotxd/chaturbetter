@@ -9,13 +9,13 @@
 // });
 
 
-chrome.webRequest.onBeforeRequest.addListener(
-    m3u8,
-    { urls: ["*://*/*.m3u8*", "*://*/*.ts*"] }
-);
+// chrome.webRequest.onBeforeRequest.addListener(
+//     m3u8,
+//     { urls: ["*://*/*.m3u8*", "*://*/*.ts*"] }
+// );
 
-function m3u8(info) {
-    if (info.url.split("?")[0].split("#")[0].endsWith("m3u8")) {
-        console.log(info.url);
-    }
-}
+// function m3u8(info) {
+//     if (info.url.split("?")[0].split("#")[0].endsWith("m3u8")) {
+//         console.log(info.url);
+//     }
+// }

@@ -4,9 +4,9 @@
     "description": "A clean dark theme for Chaturbute.",
     "manifest_version": 2,
     "permissions": [
+        "tabs",
         "webRequest",
-        "*://*/*m3u8*",
-        "tabs"
+        "*://*/*m3u8*"
     ],
     "browser_action": {
         "default_popup": "html/popup.html"

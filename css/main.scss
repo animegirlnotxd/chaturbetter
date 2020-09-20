@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -15,11 +17,12 @@
 }
 
 * {
+    // font-family: "Roboto", sans-serif !important;
+    text-decoration: none !important;
     // box-sizing: border-box;
     // padding: 0;
     // margin: 0;
     // color: white !important;
-    text-decoration: none !important;
     // border: 1px solid red;
 }
 
@@ -38,10 +41,15 @@ div[class="content"] {
 }
 
 #user_information {
-    background: none !important;
     border: none !important;
-    border-radius: 0 !important;
-    margin: 0 !important;
+    background: linear-gradient(90deg, rgba(116, 85, 202, 1) 0%, rgba(202, 79, 193, 1) 100%) !important;
+    padding: 0px 5px 0px 5px !important;
+    border-radius: 4px !important;
+    margin-top: 20px !important;
+}
+
+#user_information_profile_container > img.user_information_header_arrowdown {
+    display: none !important;
 }
 
 #user_information > [class="bottom"] {
@@ -164,34 +172,27 @@ div .title {
     transition: color 0.2s !important;
 }
 
+#main > div {
+    margin: 30px 0 0 35px !important;
+}
+
 [style*='https://ssl-ccstatic.highwebmedia.com/tsdefaultassets/gender_tab_bg.gif'] div:nth-of-type(2) > div a:hover,
 .sub-nav > li > a:hover,
 #main > div > div:nth-child(3) > div:nth-child(2) > div:nth-child(7) > a:hover {
     color: #ffd066 !important;
 }
 
-// 'FOLLOWED' tab
-.followed {
-}
-
-[href='https://chaturbate.com/followed-cams/']
-{
+#main > div > div:nth-child(3) {
+    position: absolute !important;
+    top: 29px;
+    left: 246px !important;
+    width: unset !important;
+    height: unset !important;
 }
 
 .followedContainer > :first-child > a {
     background-color: transparent !important;
 }
-
-// .sub-nav a:hover,
-// a[data-floatingnav][style]:hover,
-// a[style~=ellipsis]:hover
-// a[title]:hover {
-//     background: #4d4d4d !important;
-// }
-
-// .sub-nav a:hover {
-//     background-color: #42424d !important;
-// }
 
 .bio-container {
     background-color: #181818 !important;
@@ -218,13 +219,6 @@ div .title {
     border: none !important;
     border-radius: 0 !important;
 }
-
-// visibility bisible
-// color: rgb(55, 152, 230); cursor: pointer; padding-top: 5px; pointer-events: auto; display: block; text-decoration: none;
-//color orange
-
-// orenji
-// font-size: 32px;line-height: 32px;color: rgb(255 255 255);margin-bottom: 20px;
 
 [style*="border-radius: 4px 4px 0px 0px"][style*="height: 100%"] {
     border: none !important;
@@ -293,10 +287,6 @@ a[title].userUpload {
     background-color: transparent !important;
 }
 
-// img[src='https://ssl-ccstatic.highwebmedia.com/tsdefaultassets/play3.png'] {
-//     content:url('https://www.iconninja.com/files/210/726/399/player-video-media-play-web-youtube-icon.svg');
-// }
-
 .footer-holder {
     background: none !important;
     color: white !important;
@@ -321,6 +311,7 @@ a[title~="Exhibitionist"] {
 
 .logo-zone {
     padding: 0 !important;
+    height: 0 !important;
 }
 
 div.logo-zone strong {
@@ -333,8 +324,12 @@ div.logo-zone strong {
 }
 
 div.logo-zone image {
-    // width: 90px !important;
-    height: auto !important;
+    width: 90px !important;
+    // height: 25px !important;
+}
+
+#header > div.section.clearfix > div.logo-zone > a > svg > image {
+    width: 130px !important;
 }
 
 .followedDropdown {
@@ -458,7 +453,7 @@ body > div:nth-child(33) > div {
 }
 
 #main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) * {
-    border-radius: 0 !important;
+    // border-radius: 0 !important;
 }
 
 body > div:nth-child(33) > div > div:nth-child(2) {
@@ -536,6 +531,31 @@ body > div:nth-child(33) > div > div:nth-child(2) {
 
 #main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(3) > span:nth-child(2) > a {
     text-shadow: unset !important;
+}
+
+// FOLLOW | UNFOLLOW BUTTON & JOIN BUTTON
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2),
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(3) {
+    position: absolute !important;
+    top: 895px !important;
+    right: unset !important;
+}
+
+// FOLLOW | UNFOLLOW BUTTON
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) {
+    left: 1403px !important;
+}
+
+// JOIN BUTTON
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(3) {
+    left: 1291px !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(7),
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(8),
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(6),
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) {
+    // display: none !important;
 }
 
 // unfollow state
@@ -622,7 +642,6 @@ div.advanced_search_options * {
 // video div
 #main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) {
     display: block !important;
-    // width: calc(65vw - 150px) !important;
 }
 
 // seperator
@@ -640,17 +659,304 @@ div.advanced_search_options * {
     background-color: #181818 !important;
 }
 
+// lichely PogU
 #main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) {
-    // width: calc(100vw - 150px) !important;
-    height: 720px !important;
+    height: 789px !important;
+    width: 1402px !important;
 }
 
 #main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) {
-    width: initial !important;
+    height: 561px !important;
 }
 
 #main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) {
-    // display: none !important;
+    background-color: unset !important;
+}
+
+// possibly copy of the element below, but needed!
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3),
+
+// hover text on 'FOLLOW | UNFOLLOW'
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(1) {
+    display: none !important;
+}
+
+// FOLLOW TEXT
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1),
+
+// UNFOLLOW TEXT
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2),
+
+// JOIN FAN CLUB TEXT
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(3) {
+    padding: 10px 16px 10px 16px !important;
+    text-align: center !important;
+    width: 74px !important;
+    height: unset !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) {
+    background-color: transparent !important;
+    width: 555px !important;
+    margin-top: 240px !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) {
+    display: none !important;
+}
+
+#main
+    > div
+    > div:nth-child(6)
+    > div:nth-child(7)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > span:nth-child(1)::after {
+    content: "FOLLOW" !important;
+}
+
+#main
+    > div
+    > div:nth-child(6)
+    > div:nth-child(7)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > span:nth-child(1)::after {
+    content: "UNFOLLOW" !important;
+    // font-size: 14px !important;
+    // font-weight: 500 !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(3) > span:nth-child(1)::after {
+    content: "JOIN" !important;
+}
+
+// span with 'FOLLOW' text
+#main
+    > div
+    > div:nth-child(6)
+    > div:nth-child(7)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > span:nth-child(2),
+
+// span with 'UNFOLLOW' text
+#main
+    > div
+    > div:nth-child(6)
+    > div:nth-child(7)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > div:nth-child(2)
+    > span:nth-child(2),
+
+// span with 'JOIN FAN CLUB' text
+#main 
+    > div 
+    > div:nth-child(6) 
+    > div:nth-child(7)
+    > div:nth-child(1) 
+    > div:nth-child(3) 
+    > span:nth-child(2) {
+    display: none !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > a:nth-child(9) {
+    visibility: hidden !important;
+    position: relative !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > a:nth-child(9)::after {
+    visibility: visible !important;
+    position: absolute !important;
+    top: 0 !important;
+    // left: 0 !important;
+    content: "MORE" !important;
+}
+
+// 'SATISFIED' CONTAINER
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > div:nth-child(5) {
+    display: none !important;
+}
+
+// 'Contest Stats' in nav above the Bio
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > a:nth-child(8),
+
+// 'Share' in nav above the Bio
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > a:nth-child(10) {
+    display: none !important;
+}
+
+// Theater Mode|Interactive Full Screen
+#main > div > div:nth-child(6) > div:nth-child(3) {
+    display: none !important;
+}
+
+// PoorChamp
+#main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(6) > div {
+    display: none !important;
+}
+
+// SliderYikes
+#main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(2) {
+    display: none !important;
+}
+
+#main
+    > div
+    > div:nth-child(6)
+    > div:nth-child(2)
+    > div:nth-child(3)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div
+    > div:nth-child(1)
+    * {
+    background-color: transparent !important;
+}
+
+// whole chat
+#main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(3) {
+    display: none !important;
+}
+
+// Status:...
+// You have:...
+#user_information > div.bottom {
+    display: none !important;
+}
+
+// notiBell
+#userUpdatesBellRoot {
+    display: none !important;
+}
+
+#userInfoPanelMenuDropdownRoot > div {
+    background-color: #181818 !important;
+    border-radius: 0 !important;
+    border: 1px solid rgb(71, 71, 71) !important;
+    padding: 7px !important;
+}
+
+// User dropdown menu -> My Coll
+#userInfoPanelMenuDropdownRoot > div > a:nth-child(2),
+
+// User dropdown menu -> Send Feedback
+#userInfoPanelMenuDropdownRoot > div > a:nth-child(4) {
+    display: none !important;
+}
+
+#userInfoPanelMenuDropdownRoot > div {
+    width: 86px !important;
+}
+
+// SCAN CAMS & NEXT CAM
+#main > div > div:nth-child(3) > div:nth-child(1) {
+    display: none !important;
+}
+
+// Bio container I beleve
+#main > div > div:nth-child(6) > div:nth-child(7) > div.photovideos-container {
+    outline: none !important;
+}
+
+// x's Bio and Free Webcam
+#main > div > div:nth-child(6) > div:nth-child(7) > div.bio-container > div > h1 {
+    display: none !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div.bio-container {
+    padding: 0 !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div.bio-container > div > div {
+    margin: 0 !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div.bio-container > div > div:nth-child(odd) {
+    background-color: #202020 !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div.bio-container > div > div {
+    padding: 5px 5px 5px 12px !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div.bio-container > div > div:nth-child(even) {
+    background-color: #2b2b2b !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) {
+    background: linear-gradient(90deg, rgba(116, 85, 202, 1) 0%, rgba(202, 79, 193, 1) 100%);
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) {
+    height: unset !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > a:nth-child(6),
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > a:nth-child(7),
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) > a:nth-child(9) {
+    position: unset !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) {
+    // width: 468px !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(1) {
+    margin-bottom: 25px !important;
+}
+
+#vjs_video_3_html5_api {
+    outline: none !important;
+}
+
+// REPORT ABUSE
+#main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > a {
+    display: none !important;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > span {
+    display: none !important;
+}
+
+#zen-container {
+    float: left;
+    margin-right: 2px;
+    top: -5px;
+    position: relative;
+    overflow: visible;
+    cursor: pointer;
+}
+
+#zen-link {
+    box-sizing: border-box;
+    height: 27px;
+    display: inline-block;
+    padding: 6px 11px 0px;
+    font-family: UbuntuMedium, Helvetica, Arial, sans-serif;
+}
+
+#main > div > div:nth-child(6) > div:nth-child(7) > div:nth-child(6) > div:nth-child(3) > div {
+    background-color: unset !important;
+    border: unset !important;
+}
+
+// 'room description'
+#main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3),
+#main > div > div:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    display: none !important;
+}
+
+#user_information_profile_container > img.user_information_header_icon {
+    display: none !important;
+}
+
+#user_information {
+    min-width: unset !important;
 }
 
 // .prev {
