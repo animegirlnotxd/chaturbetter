@@ -1,2 +1,2 @@
 # chaturbetter
-A clean dark theme for Chaturbute through a Chrome extension ❤️
+Chrome extension that styles Chaturbute with a clean dark theme ❤️
